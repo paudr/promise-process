@@ -11,7 +11,7 @@ Using bower:
 ```shell
 bower install promise-process
 ```
-Download [minified](https://github.com/frikeldon/promise-process/blob/master/promiseProcess.min.js) file.
+Download [minified](https://raw.githubusercontent.com/frikeldon/promise-process/master/promiseProcess.min.js) file.
 
 
 ## Quick examples

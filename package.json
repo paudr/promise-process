@@ -1,6 +1,6 @@
 {
   "name": "promise-process",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "promise-process is a helper module that allows you to queue promise-returning functions to be executed in series, as in Promise waterfall, but with the ability to add or delete promise-returning functions after the execution has started.",
   "homepage": "https://github.com/frikeldon/promise-process",
   "bugs": "https://github.com/frikeldon/promise-process/issues",

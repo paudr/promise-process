@@ -1,0 +1,32 @@
+{
+  "name": "promise-process",
+  "version": "1.0.0",
+  "description": "promise-process is a helper module that allows you to queue promise-returning functions to be executed in series, as in Promise waterfall, but with the ability to add or delete promise-returning functions after the execution has started.",
+  "homepage": "https://github.com/frikeldon/promise-process",
+  "bugs": "https://github.com/frikeldon/promise-process/issues",
+  "author": "Pau Drudis <frikeldon@gmail.com> (http://www.paudr.com/)",
+  "scripts": {
+    "test": "node node_modules/mocha/bin/mocha -u tdd",
+    "minify": "uglifyjs --compress --mangle --comments --output promiseProcess.min.js -- promiseProcess.js"
+  },
+  "main": "promiseProcess.js",
+  "repository": "frikeldon/promise-process",
+  "keywords": [
+    "promise",
+    "queue",
+    "stack",
+    "async",
+    "flow control",
+    "series"
+  ],
+  "devDependencies": {
+    "mocha": "^2.3.3",
+    "sinon": "^1.17.1"
+  },
+  "license": "MIT",
+  "files": [
+    "LICENSE",
+    "README.md",
+    "promiseProcess.js"
+  ]
+}

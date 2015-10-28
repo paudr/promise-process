@@ -1,0 +1,36 @@
+{
+  "name": "promise-process",
+  "main": "promiseProcess.js",
+  "version": "1.0.0",
+  "description": "promise-process is a helper module that allows you to queue promise-returning functions to be executed in series, as in Promise waterfall, but with the ability to add or delete promise-returning functions after the execution has started.",
+  "moduleType": [
+    "amd",
+    "es6",
+    "globals",
+    "node"
+  ],
+  "keywords": [
+    "promise",
+    "queue",
+    "stack",
+    "async",
+    "flow control",
+    "series"
+  ],
+  "authors": [
+    "Pau Drudis <frikeldon@gmail.com> (http://www.paudr.com/)",
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/frikeldon/promise-process",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/frikeldon/promise-process"
+  }
+}
